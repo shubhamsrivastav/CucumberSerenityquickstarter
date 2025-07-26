@@ -1,0 +1,9 @@
+This is a placeholder for the Excel file. In a real project, this would be an actual Excel file with test data.
+
+Sample structure:
+| username | password | expected_result | test_case |
+|----------|----------|-----------------|-----------|
+| admin    | admin123 | success         | valid_login |
+| user1    | pass123  | success         | valid_user |
+| invalid  | wrong    | failure         | invalid_creds |
+| empty    |          | failure         | empty_fields |
